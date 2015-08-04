@@ -14,6 +14,10 @@ set_include_path(implode(PATH_SEPARATOR, array(
     get_include_path(),
 )));
 
+
+/** include autoload */
+require_once APPLICATION_PATH.'/../vendor/autoload.php';
+
 /** Zend_Application */
 require_once 'Zend/Application.php';
 
