@@ -1,0 +1,20 @@
+{
+    "name": "vnext/longna",
+    "description": "Template with library for Zend framework: phpunit, phing, phinx, zendframwork1, dbtesting",
+    "require": {
+        "zendframework/zendframework1": "^1.12",
+        "zfbase/zend1-bootstrap3": "^1.0",
+        "phing/phing": "^2.11",
+        "robmorgan/phinx": "^0.4.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7",
+        "phpunit/dbunit": "^1.4"
+    },
+    "authors": [
+        {
+            "name": "Ngo Anh Long",
+            "email": "ngoanhlong@gmail.com"
+        }
+    ]
+}
