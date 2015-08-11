@@ -1,0 +1,32 @@
+paths:
+    migrations: %%PHINX_CONFIG_DIR%%/migrations
+
+environments:
+    default_migration_table: phinxlog
+    default_database: development
+    production:
+        adapter: mysql
+        host: localhost
+        name: canteen_live
+        user: canteen_live
+        pass: 'canteen_live'
+        port: 3306
+        charset: utf8
+
+    development:
+        adapter: mysql
+        host: localhost
+        name: canteen_dev
+        user: canteen_dev
+        pass: 'canteen_dev'
+        port: 3306
+        charset: utf8
+
+    testing:
+        adapter: mysql
+        host: localhost
+        name: canteen_testing
+        user: canteen_testing
+        pass: 'canteen_testing'
+        port: 3306
+        charset: utf8

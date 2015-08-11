@@ -7,19 +7,19 @@
         change default attribute of project if you want
     -->
     
-<!--    <target name="soft-design-verify" depends="migrate-testing" description="run tests">
+    <target name="soft-design-verify" depends="migrate-testing" description="run tests">
         <exec command="vendor/bin/phpunit -c tests/phpunit.xml" passthru="true"/>
     </target>
     <target name="migrate-testing">
         <exec command="vendor/bin/phinx migrate -e testing" passthru="true"/>
     </target>
     
-    <target name="migrate-dev">
+   <target name="migrate-dev">
         <exec command="vendor/bin/phinx migrate -e development" passthru="true"/>
     </target>
     
     <target name="migrate-product">
         <exec command="vendor/bin/phinx migrate -e production" passthru="true"/>
-    </target>-->
+    </target>
     
 </project>
